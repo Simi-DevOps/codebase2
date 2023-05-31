@@ -22,5 +22,6 @@ variable "default_tags" {
   default = {
     "Name" = "Some node"
     "Dept" = "development"
+    "Can destroy" = "Yes"
   }
 }
