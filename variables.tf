@@ -25,3 +25,25 @@ variable "default_tags" {
     "Can destroy" = "Yes"
   }
 }
+
+variable "bucket_name" {
+  type = string
+  default = "dev.somerandomname"
+}
+
+variable "acl_value" {
+  type = string
+  default = "private"
+}
+
+variable "aws_access_key" {
+  default = "AKIAQRWR56PX2HO4AU3I"
+}
+
+variable "aws_secret_key" {
+  default = "uC0gUuPckIucQGgg5BPL1L9x9z7qsCz2F2yKwNgE"
+}
+
+variable "region" {
+  default = "eu-west-1"
+}
