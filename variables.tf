@@ -25,17 +25,3 @@ variable "default_tags" {
     "Can destroy" = "Yes"
   }
 }
-
-variable "bucket_name" {
-  type = string
-  default = "dev.somerandomname"
-}
-
-variable "acl_value" {
-  type = string
-  default = "private"
-}
-
-variable "region" {
-  default = "eu-west-1"
-}
