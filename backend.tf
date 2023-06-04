@@ -6,10 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    //bucket = "dev.somerandomname"
-    bucket = var.bucket
-    //key    = "dev/terraform.tfstate"
-    key = var.key
+    bucket = "simidevops-terraform-state-files"
+    key = "simidevops-terraform-state-files"
     region = "eu-west-1"
   }
   required_version = ">= 1.2.0"
