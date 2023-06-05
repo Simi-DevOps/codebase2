@@ -25,7 +25,3 @@ variable "default_tags" {
     "Can destroy" = "Yes"
   }
 }
-
-variable "bucket" {}
-variable "key" {}
-
